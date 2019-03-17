@@ -1,0 +1,29 @@
+#try to choose a minimalist base image
+FROM ubuntu:18.09.3
+
+#labels
+LABEL summary=host nodejs app /
+      appversion = 1.0 /
+      node-version = 10.15
+      
+#env variables
+ENV NODE_VERSION=10.15 /
+    NODE_URL= https://nodejs.org/dist/v10.15.3/node-v10.15.3-linux-x64.tar.xz
+
+#add groups and users if required
+
+
+
+#package installations
+
+
+#working directory
+
+#copy source files
+
+#volume mapping if any
+
+#expose ports
+
+#default command
+
